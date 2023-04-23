@@ -46,6 +46,8 @@ namespace CAL
      * @param id The CAN ID that the Data is found in
      * @param start_idx Where the data first occurs within the CAN data
      * @param bitmask The Data's Bitmask
+     * @param multiplier The Data's Multiplier
+     * @param divisor The Data's Divisor (should be 1 in most cases)
      * @param dataType The MoTec Defined Data Type
      * 
      */
@@ -55,6 +57,7 @@ namespace CAL
         const int start_idx;
         const int bitmask;
         const float multiplier;
+        const float divisor;
         const DataType dataType;
     } data;
 
