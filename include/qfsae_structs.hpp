@@ -61,10 +61,23 @@ namespace CAL
     // MOTEC CAN ID's (ECU/PDM)
     namespace MOTEC_ID
     {
-        static constexpr uint32_t ECU_1 = 0x118;
-        static constexpr uint32_t ECU_2 = 0x119;
-        static constexpr uint32_t PDM_1 = 0x7F0;
-        static constexpr uint32_t PDM_2 = 0x7F1;
+        static constexpr uint32_t ECU_1     = 0x118;
+        static constexpr uint32_t ECU_2     = 0x119;
+        static constexpr uint32_t PDM_1     = 0x7F0;
+        static constexpr uint32_t PDM_2     = 0x7F1;
+        static constexpr uint32_t Logger_1  = 0x0640;
+        static constexpr uint32_t Logger_2  = 0x0641;
+        static constexpr uint32_t Logger_3  = 0x0642;
+        static constexpr uint32_t Logger_5  = 0x0644;
+        static constexpr uint32_t Logger_6  = 0x0645;
+        static constexpr uint32_t Logger_9  = 0x0648;
+        static constexpr uint32_t Logger_10 = 0x0649;
+        static constexpr uint32_t Logger_11 = 0x064A;
+        static constexpr uint32_t Logger_13 = 0x064C;
+        static constexpr uint32_t Logger_14 = 0x064D;
+        static constexpr uint32_t Logger_15 = 0x064E;
+        static constexpr uint32_t Logger_16 = 0x064F;
+
     } // namespace MOTEC_ID
 
     // Melanous CAN ID's
